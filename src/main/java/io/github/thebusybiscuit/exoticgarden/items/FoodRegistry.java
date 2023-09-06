@@ -79,10 +79,6 @@ public final class FoodRegistry {
         8)
         .register(plugin);
 
-        new ItemStack[] {new ItemStack(Material.PUMPKIN), new ItemStack(Material.SUGAR), SlimefunItems.WHEAT_FLOUR, null, null, null, null, null, null},
-        8)
-        .register(plugin);
-
         new SlimefunItem(misc, new SlimefunItemStack("MAYO", "7f8d536c8c2c2596bcc1709590a9d7e33061c56e658974cd81bb832ea4d8842", "&rMayo"), RecipeType.GRIND_STONE,
         new ItemStack[] {new ItemStack(Material.EGG), null, null, null, null, null, null, null, null})
         .register(plugin);
